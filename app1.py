@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the Excel file
-file_path = r"C:\Users\bachi\PycharmProjects\unit_test\data\rqt1.xlsx"
+file_path = "rqt1.xlsx"
 try:
     df = pd.read_excel(file_path)
 except FileNotFoundError:
